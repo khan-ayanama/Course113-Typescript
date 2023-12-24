@@ -153,3 +153,19 @@ type Person = {
 // Type alias for a function type
 type MathOperation = (a: number, b: number) => number;
 ```
+
+`Example:`
+
+```typescript
+// Defining the object type using semicolons
+type Person = {
+  name: string;
+  age: number;
+};
+
+// Creating an object based on the defined type using commas
+const personObject: Person = {
+  name: "John",
+  age: 30,
+};
+```
