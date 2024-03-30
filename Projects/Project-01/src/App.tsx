@@ -1,10 +1,12 @@
 import AddToDo from "./components/AddToDo";
+import ToDo from "./components/ToDo";
 
 const App = () => {
   return (
     <>
-      <h1>Typescript + React Todo Application</h1>
+      <h1>React + Typescript</h1>
       <AddToDo />
+      <ToDo />
     </>
   );
 };
